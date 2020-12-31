@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Bingo! It worked');
+  res.send('Bingo! It worked and now updated');
 });
 
 app.get('/trigger', (req, res) => {
